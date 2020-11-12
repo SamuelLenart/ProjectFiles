@@ -4,6 +4,6 @@ public class Main {
     public static void main(String[] args) {
         RWFile rwFile = new RWFile();
         rwFile.copyFileWithCapital("resources/a.txt");
-        rwFile.copyAndEncryptFile("resource/a.txt", 5);
+        rwFile.copyAndEncryptFile("resources/a.txt", 5);
     }
 }
