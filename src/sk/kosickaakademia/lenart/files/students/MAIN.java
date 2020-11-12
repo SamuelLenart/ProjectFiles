@@ -68,7 +68,7 @@ public class MAIN {
     }
 
     public static void printAllAge(Student[] array) {
-        System.out.println("\033[31mAge of all students: \033[0m");
+        System.out.println("Age of all students: ");
         for (Student student : array) {
             System.out.println(student.getFirstName() + " " + student.getLastName() + ": " + student.getAge());
         }
