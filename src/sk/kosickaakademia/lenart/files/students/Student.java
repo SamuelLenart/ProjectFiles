@@ -84,4 +84,7 @@ public class Student {
         return weight;
     }
 
+    public void setContact(Contact contact) {
+        this.contact = contact;
+    }
 }

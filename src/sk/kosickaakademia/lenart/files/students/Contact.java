@@ -1,5 +1,7 @@
 package sk.kosickaakademia.lenart.files.students;
 
+import org.w3c.dom.ls.LSOutput;
+
 public class Contact {
     private String cellphone;
     private String email;
@@ -30,5 +32,14 @@ public class Contact {
 
     public void setSkype(String skype) {
         Skype = skype;
+    }
+
+    public void print(){
+        if (Skype != null)
+            System.out.println("Skype: "+Skype);
+        if (email != null)
+            System.out.println("Email: "+email);
+        if (cellphone != null)
+            System.out.println("Cellphone: "+cellphone);
     }
 }
