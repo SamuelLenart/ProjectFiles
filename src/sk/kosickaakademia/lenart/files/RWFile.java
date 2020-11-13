@@ -30,7 +30,7 @@ public class RWFile {
         }
 
     }
-    public void copyAndEncryptFile(String fileName, int offset){ //offset o kolko sa posunie
+    public void copyAndEncryptFile(String fileName, int offset){
         String name;
         name = getFileName('c');
 

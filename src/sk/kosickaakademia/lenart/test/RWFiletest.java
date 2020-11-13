@@ -5,7 +5,7 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class RWFile {
+public class RWFiletest {
     public void copyFileWithCapital(String fileName) {
         BufferedReader reader;
         try {
